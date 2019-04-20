@@ -1,0 +1,7 @@
+version: '3'
+services:
+  speedtest:
+    image: "ilasiaq88/tp-speedtest"
+    container_name: speedtest
+    ports:
+      - 80:80
